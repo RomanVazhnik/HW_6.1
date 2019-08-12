@@ -12,7 +12,7 @@
 		F6331EEE22FD7AAF00D4DBEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6331EED22FD7AAF00D4DBEA /* Assets.xcassets */; };
 		F6331EF122FD7AAF00D4DBEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6331EEF22FD7AAF00D4DBEA /* LaunchScreen.storyboard */; };
 		F6331EF922FD7B2800D4DBEA /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6331EF822FD7B2800D4DBEA /* ListTableViewController.swift */; };
-		F6331EFB22FD7BB800D4DBEA /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6331EFA22FD7BB800D4DBEA /* model.swift */; };
+		F6331EFB22FD7BB800D4DBEA /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6331EFA22FD7BB800D4DBEA /* Person.swift */; };
 		F6331EFD22FD922500D4DBEA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6331EFC22FD922500D4DBEA /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,7 +24,7 @@
 		F6331EF022FD7AAF00D4DBEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6331EF222FD7AAF00D4DBEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6331EF822FD7B2800D4DBEA /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
-		F6331EFA22FD7BB800D4DBEA /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
+		F6331EFA22FD7BB800D4DBEA /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		F6331EFC22FD922500D4DBEA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,7 +60,7 @@
 			children = (
 				F6331EF822FD7B2800D4DBEA /* ListTableViewController.swift */,
 				F6331EFC22FD922500D4DBEA /* DetailViewController.swift */,
-				F6331EFA22FD7BB800D4DBEA /* model.swift */,
+				F6331EFA22FD7BB800D4DBEA /* Person.swift */,
 				F6331EE622FD7AAA00D4DBEA /* AppDelegate.swift */,
 				F6331EEA22FD7AAA00D4DBEA /* Main.storyboard */,
 				F6331EED22FD7AAF00D4DBEA /* Assets.xcassets */,
@@ -142,7 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6331EE722FD7AAA00D4DBEA /* AppDelegate.swift in Sources */,
-				F6331EFB22FD7BB800D4DBEA /* model.swift in Sources */,
+				F6331EFB22FD7BB800D4DBEA /* Person.swift in Sources */,
 				F6331EF922FD7B2800D4DBEA /* ListTableViewController.swift in Sources */,
 				F6331EFD22FD922500D4DBEA /* DetailViewController.swift in Sources */,
 			);
